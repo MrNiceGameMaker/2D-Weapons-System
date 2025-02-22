@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2440ba72169e441954a43db793a700, type: 3}
+  m_Name: NewWeapon
+  m_EditorClassIdentifier: 
+  weaponName: TESTER
+  projectilePrefab: {fileID: 232679825241993727, guid: f50eda61c4b2ccf49bdbfd6651eaf42f, type: 3}
+  shotSprite: {fileID: 21300000, guid: 3bcdf2f31bbaced4da93a410e04ba570, type: 3}
+  weaponSprite: {fileID: 0}
+  hasPhysicalCollider: 0
+  magazineReloadTime: 1
+  magazineSize: 3
+  fireRate: 0.1
+  isBurstFire: 0
+  burstAmount: 8
+  ySpread: 1
+  burstTotalTime: 0.297
+  minSpeed: 1
+  maxSpeed: 15
+  accelerationRate: 0
+  accelerationDuration: 0.1
+  affectedByPlayerMomentum: 0
+  affectedByGravity: 0
+  movementInFlightRange: 0
+  stopsOnImpact: 0
+  projectilesSpreadDuringFlight:
+    minValue: 66
+    maxValue: 108
+  hasProjectilesDuringFlight: 0
+  projectilesDuringFlightAttributes: {fileID: 11400000, guid: 2465511ccac85d84b91bbd766e0c8980, type: 2}
+  amountOfProjectilesOnEachRelease: 5
+  timeBetweenProjectilesRelease: 0.7
+  isExploding: 1
+  explosionRadius: 50
+  explodesAfterTime: 10
+  explodesAfterDistance: 0
+  hasShockwave: 0
+  shockwaveSize: 500
+  shockwaveStrength: 30
+  shockwaveParticleSystem: {fileID: 0}
+  explosionEffect: {fileID: 0}
+  projectileTrail: {fileID: 0}
+  weaponType: 2
+  sandLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  isDigging: 1
+  diggingSize: 1
+  isExplosionDestroyingSand: 1
+  sandDestructionRadius: 8
+  isExplosionMakingNewSand: 0
+  newSandRadius: 20
+  explodesOnContactWithLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  explodesOnContactWithTag: Nothing
+  bouncesOnContact: 0
+  bounceBounciness: 1
+  bounceFriction: 1
+  explosionDamage: 50
+  duringFlightDamage: 0
+  hitDamage: 50
+  hasDamageOverTime: 0
+  damageOverTime: 0
+  totalDuration: 0
+  tickRate: 0
+  projectilesSpread:
+    minValue: 0
+    maxValue: 360
+  hasProjectiles: 1
+  projectilesAttributes: {fileID: 11400000, guid: 2465511ccac85d84b91bbd766e0c8980, type: 2}
+  amountOfProjectiles: 50
+  hasRandomAmountOfProjectiles: 0
+  minimumAmount: 10
+  maximumAmount: 20
+  hasGravityAfterExplosion: 0
+  hasGravityDuringFlight: 0
+  gravityForce: 50000
+  gravityForceRadius: 50
+  gravityDurationAfterExplosion: 50
+  gravityFieldPrefab: {fileID: 0}
