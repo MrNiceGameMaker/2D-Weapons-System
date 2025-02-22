@@ -1,4 +1,4 @@
-# 2D Weapons System
+# 2D Weapons System - Unity
 
 The **2D Weapons System** is a highly modular and extensible framework for managing weapons in Unity-based 2D games.
 This system is designed to provide scalable and efficient weapon handling, supporting projectiles, explosions, environmental interactions, and event-driven mechanics.
